@@ -24,3 +24,7 @@ UNIX/Linux: To view the system calls the operating system makes while
 running this program, run:
 
 `strace ./copy.o`
+
+
+To create `strace_log` 
+run `strace -ostrace_log ./copy.o`.

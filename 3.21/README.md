@@ -60,4 +60,8 @@ and the pid for the child process will be 0
         }
    ```
         
-3. After the child process completed the parent will release the wait() and continue execution        
+3. After the child process completed the parent will release the wait() and continue execution   
+
+---
+#### code inspired from
+https://github.com/SeanStaz/theCollatzConjecture.c/blob/master/hailstone.c

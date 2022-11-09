@@ -93,3 +93,8 @@ the screen.
   * Line 53: `exit_group(0)                           = ?`
   * Exit all threads in a process. I believe 0 indicates a successful
   execution.
+
+
+### strace log image 
+
+![alt text]()

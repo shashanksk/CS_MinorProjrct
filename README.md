@@ -3,7 +3,7 @@
 The following 2 problems are part of the 2022 Minors in computer science 
 
 
-##Question 1 Chapter 2 2.24
+## Question 1 Chapter 2 2.24
 
 In Section 2.3, we described a program that copies the contents of one file to a destination file. This program works by first prompting the user for the name of the source and destination files. Write this program using either the POSIX or Windows API. Be sure to include all necessary error checking, including ensuring that the source file exists.
 
@@ -15,7 +15,7 @@ macOS: sudo dtruss ./FileCopy
 
 Since Windows systems do not provide such a tool, you will have to trace through the Windows version of this program using a debugger.
 
-##question 3 Chapter 3 3.21
+## Question 3 Chapter 3 3.21
 
 The Collatz conjecture concerns what happens when we take any posi- tive integer n and apply the following algorithm:
 

@@ -13,6 +13,6 @@ The conjecture states that when this algorithm is continually applied, all posit
 3. Follow onscreen prompts to copy your files
 
 #### Runtime example
-
+![alt text](https://github.com/shashanksk/CS_MinorProjrct/blob/main/3.21/images/Screenshot%202022-11-09%20at%2012.13.05%20PM.png)
 
 

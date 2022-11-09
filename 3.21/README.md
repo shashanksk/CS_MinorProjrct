@@ -19,8 +19,11 @@ The conjecture states that when this algorithm is continually applied, all posit
 
 #### Header files
 `cctype`    - for validating input `isdigit()`
+
 `algorithm` - for string validation `begin(),end()`
+
 `wait.h`    - for the `wait()` system call
+
 `types.h`   - for pid 
 
 ---

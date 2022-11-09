@@ -10,7 +10,7 @@
 
 int main()
 {
-    printf("\n\nWelcome to Hailstone, by Sean Staz\n");
+
 
     std::string k;
     int flag = 0, i = 0;

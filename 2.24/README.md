@@ -97,4 +97,4 @@ the screen.
 
 ### strace log image 
 
-![alt text]()
+![alt text](https://github.com/shashanksk/CS_MinorProjrct/blob/main/2.24/images/Screenshot%202022-11-09%20at%2011.18.28%20AM.png)

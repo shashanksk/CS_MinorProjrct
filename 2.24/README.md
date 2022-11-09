@@ -18,3 +18,9 @@ Since Windows systems do not provide such a tool, you will have to trace through
 3. Follow onscreen prompts to copy your files
 
 
+---
+#### SystemCalls
+UNIX/Linux: To view the system calls the operating system makes while
+running this program, run:
+
+`strace ./copy.o`

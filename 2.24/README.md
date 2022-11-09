@@ -14,7 +14,7 @@ Since Windows systems do not provide such a tool, you will have to trace through
 
 #### INSTRUCTIONS
 1. `gcc copy_code.c -o copy_code.o`
-2. `./copy.o`
+2. `./copy_copy.o`
 3. Follow onscreen prompts to copy your files
 
 ### runtime example

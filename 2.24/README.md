@@ -98,6 +98,6 @@ the screen.
 14. `void exit_group(int status);`
 
   * Line 53: `exit_group(0)                           = ?`
-  * Exit all threads in a process. I believe 0 indicates a successful
+  * Exit all threads in a process.0 indicates a successful
   execution.
 

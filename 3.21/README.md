@@ -23,6 +23,8 @@ The conjecture states that when this algorithm is continually applied, all posit
 `wait.h`    - for the `wait()` system call
 `types.h`   - for pid 
 
+---
+
 #### Functionality
 
 1. when the line `pid = fork()` is executed a new process will be created with `fork()`

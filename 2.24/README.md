@@ -17,6 +17,9 @@ Since Windows systems do not provide such a tool, you will have to trace through
 2. `./copy.o`
 3. Follow onscreen prompts to copy your files
 
+### runtime example
+![alt text]()
+
 
 ---
 #### SystemCalls

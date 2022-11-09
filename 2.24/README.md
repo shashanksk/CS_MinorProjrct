@@ -100,4 +100,10 @@ the screen.
   * Line 53: `exit_group(0)                           = ?`
   * Exit all threads in a process.0 indicates a successful
   execution.
+  
+  
+  ---
+  #### References
+  
+  https://github.com/sankronaldo/CS-252-OS-Assignment/tree/main/Q1-2.24
 

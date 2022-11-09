@@ -62,7 +62,7 @@ repeats) with the line of occurrence in the first bullet point:
 5. `fstat(3, {st_mode=S_IFREG|0644, st_size=227323, ...}) = 0`
   * Gets file status.
 
-6. 'mmap(NULL, 227323, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffff819ba000'
+6. `mmap(NULL, 227323, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffff819ba000`
 
 7. `int close(int fd);`
 

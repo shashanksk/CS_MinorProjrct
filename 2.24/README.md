@@ -18,7 +18,7 @@ Since Windows systems do not provide such a tool, you will have to trace through
 3. Follow onscreen prompts to copy your files
 
 ### runtime example
-![alt text]()
+![alt text](https://github.com/shashanksk/CS_MinorProjrct/blob/main/2.24/images/Screenshot%202022-11-09%20at%2011.24.41%20AM.png)
 
 
 ---

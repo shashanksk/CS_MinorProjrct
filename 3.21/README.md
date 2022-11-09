@@ -18,6 +18,36 @@ The conjecture states that when this algorithm is continually applied, all posit
 ---
 
 #### Header files
-`cctype` - for validating input `isdigit()`
+`cctype`    - for validating input `isdigit()`
+`algorithm` - for string validation `begin(),end()`
+`wait.h`    - for the `wait()` system call
+`types.h`   - for pid 
 
+#### Functionality
 
+1. when the line `pid = fork()` is executed a new process will be created with `fork()`
+   2 processes will run 
+
+   A - the forked process which will be the child
+   B - the parent process
+
+the pid for the parent process will be an integer > 0
+and the pid for the child process will be 0
+
+2. processes will execute simultaneously 
+  - the parent process will fail the if statement `if(pid == 0)` and will run the else clause until `wait()` gets executed which will then wait till the child process completes
+  - the child process with pid 0 will run the algorithm `while (h != 1)
+        {
+            if (h % 2 == 0)
+            {
+                h = h / 2;
+            }
+            else if (h % 2 == 1)
+            {
+                h = 3 * (h) + 1;
+            }
+
+            printf("%d\n", h);
+        }`
+        
+3. After the child process completed the parent will release the wait() and continue execution        

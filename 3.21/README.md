@@ -36,7 +36,8 @@ and the pid for the child process will be 0
 
 2. processes will execute simultaneously 
   - the parent process will fail the if statement `if(pid == 0)` and will run the else clause until `wait()` gets executed which will then wait till the child process completes
-  - the child process with pid 0 will run the algorithm `while (h != 1)
+  - the child process with pid 0 will run the algorithm 
+  `     while (h != 1)
         {
             if (h % 2 == 0)
             {
@@ -48,6 +49,7 @@ and the pid for the child process will be 0
             }
 
             printf("%d\n", h);
-        }`
+        }
+   `
         
 3. After the child process completed the parent will release the wait() and continue execution        

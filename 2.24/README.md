@@ -26,11 +26,11 @@ Since Windows systems do not provide such a tool, you will have to trace through
 UNIX/Linux: To view the system calls the operating system makes while
 running this program, run:
 
-`strace ./copy.o`
+`strace ./copy_code.o`
 
 
 To create `strace_log` 
-run `strace -ostrace_log ./copy.o`.
+run `strace -ostrace_log ./copy_code.o`.
 
 ### Strace log image 
 

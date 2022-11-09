@@ -1,0 +1,44 @@
+execve("./copy_code", ["./copy_code"], 0xffffc3ce19e8 /* 58 vars */) = 0
+brk(NULL)                               = 0xaaaadb2e5000
+faccessat(AT_FDCWD, "/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=227323, ...}) = 0
+mmap(NULL, 227323, PROT_READ, MAP_PRIVATE, 3, 0) = 0xffff819ba000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`\17\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1450832, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xffff81a1e000
+mmap(NULL, 1519552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xffff81847000
+mprotect(0xffff819a2000, 61440, PROT_NONE) = 0
+mmap(0xffff819b1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15a000) = 0xffff819b1000
+mmap(0xffff819b7000, 12224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff819b7000
+close(3)                                = 0
+mprotect(0xffff819b1000, 16384, PROT_READ) = 0
+mprotect(0xaaaaaf001000, 4096, PROT_READ) = 0
+mprotect(0xffff81a23000, 4096, PROT_READ) = 0
+munmap(0xffff819ba000, 227323)          = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+brk(NULL)                               = 0xaaaadb2e5000
+brk(0xaaaadb306000)                     = 0xaaaadb306000
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+write(1, "Enter name of source file: ", 27) = 27
+read(0, "to.txt\n", 1024)               = 7
+openat(AT_FDCWD, "to.txt", O_RDONLY)    = 3
+write(1, "Enter name of destination file: ", 32) = 32
+read(0, "from5.txt\n", 1024)            = 10
+openat(AT_FDCWD, "from5.txt", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "to.txt", O_RDONLY)    = 4
+openat(AT_FDCWD, "from5.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+fstat(4, {st_mode=S_IFREG|0664, st_size=36, ...}) = 0
+read(4, "this is sparta\n\nhope the code wo"..., 4096) = 36
+fstat(5, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+read(4, "", 4096)                       = 0
+write(1, "\n", 1)                       = 1
+write(1, "Success!\n", 9)               = 9
+close(4)                                = 0
+write(5, "this is sparta\n\nhope the code wo"..., 36) = 36
+close(5)                                = 0
+lseek(0, -1, SEEK_CUR)                  = -1 ESPIPE (Illegal seek)
+exit_group(0)                           = ?
++++ exited with 0 +++

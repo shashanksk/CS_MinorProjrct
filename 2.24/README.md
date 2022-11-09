@@ -12,3 +12,9 @@ macOS: sudo dtruss ./FileCopy
 Since Windows systems do not provide such a tool, you will have to trace through the Windows version of this program using a debugger.
 
 
+#### INSTRUCTIONS
+1. `gcc copy.c -o copy.o`
+2. `./copy.o`
+3. Follow onscreen prompts to copy your files
+
+

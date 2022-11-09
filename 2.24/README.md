@@ -1,5 +1,5 @@
 
-# question 
+# Question 
 
 In Section 2.3, we described a program that copies the contents of one file to a destination file. This program works by first prompting the user for the name of the source and destination files. Write this program using either the POSIX or Windows API. Be sure to include all necessary error checking, including ensuring that the source file exists.
 
@@ -28,6 +28,10 @@ running this program, run:
 
 To create `strace_log` 
 run `strace -ostrace_log ./copy.o`.
+
+### Strace log image 
+
+![alt text](https://github.com/shashanksk/CS_MinorProjrct/blob/main/2.24/images/Screenshot%202022-11-09%20at%2011.18.28%20AM.png)
 
 List of system calls listed in `strace_log` in order of occurrence (no
 repeats) with the line of occurrence in the first bullet point:
@@ -94,7 +98,3 @@ the screen.
   * Exit all threads in a process. I believe 0 indicates a successful
   execution.
 
-
-### strace log image 
-
-![alt text](https://github.com/shashanksk/CS_MinorProjrct/blob/main/2.24/images/Screenshot%202022-11-09%20at%2011.18.28%20AM.png)
